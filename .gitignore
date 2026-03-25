@@ -4,6 +4,7 @@ hugo
 # Hugo build output
 public/
 resources/_gen/
+.hugo_build.lock
 
 # Hugo module cache
 _vendor/
