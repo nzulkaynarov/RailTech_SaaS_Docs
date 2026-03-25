@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "eliostruyf.vscode-front-matter",
+    "budparr.language-hugo-vscode",
+    "DavidAnson.vscode-markdownlint",
+    "EditorConfig.EditorConfig",
+    "GitHub.copilot"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": false,
+  "editor.wordWrap": "on",
+  "[markdown]": {
+    "editor.defaultFormatter": null,
+    "files.trimTrailingWhitespace": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "search.exclude": {
+    "public/": true,
+    "themes/": true,
+    "node_modules/": true,
+    "_gen/": true,
+    "resources/": true
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "public/": true,
+    "_gen/": true,
+    "resources/_gen/": true
+  },
+  "hugo.server.flags": ["-D"],
+  "frontMatter.preview.host": "http://localhost:1313"
+}
