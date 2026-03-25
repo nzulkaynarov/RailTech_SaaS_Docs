@@ -1,0 +1,11 @@
+[menu_guides]
+other = "Guides"
+
+[menu_api]
+other = "API"
+
+[menu_architecture]
+other = "Architecture"
+
+[menu_knowledge_base]
+other = "Knowledge Base"

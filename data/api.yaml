@@ -1,0 +1,27 @@
+base_url: /api/v1
+auth:
+  login: POST /api/v1/auth/login/
+  refresh: POST /api/v1/auth/token/refresh/
+  register: POST /api/v1/auth/register-interest/
+
+catalog:
+  products: GET /api/v1/catalog/products/
+  product_detail: GET /api/v1/catalog/products/{id}/
+  categories: GET /api/v1/catalog/categories/
+  equipment_groups: GET /api/v1/catalog/equipment-groups/
+
+crm:
+  deals: GET /api/v1/crm/deals/
+  deal_detail: GET /api/v1/crm/deals/{id}/
+  quotes: GET /api/v1/crm/deals/{id}/quotes/
+  import_excel: POST /api/v1/sourcing/import-deal/{deal_id}/
+  export_pdf: GET /api/v1/crm/deals/{id}/export-pdf/
+
+accounts:
+  me: GET /api/v1/accounts/me/
+  companies: GET /api/v1/accounts/companies/
+  kyc_upload: POST /api/v1/accounts/companies/{id}/upload-document/
+
+websocket:
+  chat: ws://host/ws/chat/{deal_id}/
+  notifications: ws://host/ws/notifications/

@@ -1,0 +1,59 @@
+[ui_search]
+other = "Поиск"
+
+[post_edit_this]
+other = "Редактировать"
+
+[post_create_child_page]
+other = "Создать дочернюю страницу"
+
+[post_create_issue]
+other = "Сообщить о проблеме"
+
+[post_last_mod]
+other = "Обновлено"
+
+[post_reading_time]
+other = "мин. чтения"
+
+[footer_all_rights_reserved]
+other = "Все права защищены"
+
+[footer_privacy_policy]
+other = "Политика конфиденциальности"
+
+[breadcrumb_home]
+other = "Главная"
+
+[docs_version]
+other = "Версия"
+
+[404_title]
+other = "Страница не найдена"
+
+[404_subtitle]
+other = "К сожалению, запрашиваемая страница не существует."
+
+[toc_heading]
+other = "На этой странице"
+
+[feedback_heading]
+other = "Была ли эта страница полезна?"
+
+[feedback_yes]
+other = "Да"
+
+[feedback_no]
+other = "Нет"
+
+[menu_guides]
+other = "Руководства"
+
+[menu_api]
+other = "API"
+
+[menu_architecture]
+other = "Архитектура"
+
+[menu_knowledge_base]
+other = "База знаний"

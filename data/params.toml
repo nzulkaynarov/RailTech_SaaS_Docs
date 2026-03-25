@@ -1,0 +1,20 @@
+[company]
+name = "RailTech"
+full_name = "ООО «RailTech»"
+location = "Ташкент, Узбекистан"
+website = "https://railtech.uz"
+
+[platform]
+name = "RailTech B2B Ecosystem"
+version = "1.0"
+vat_rate = "12%"
+country = "Узбекистан"
+
+[contacts]
+support_email = "support@railtech.uz"
+sales_email = "sales@railtech.uz"
+
+[domains]
+railway = "RAILWAY_MACHINERY"
+general = "GENERAL_GOODS"
+services = "SERVICES"

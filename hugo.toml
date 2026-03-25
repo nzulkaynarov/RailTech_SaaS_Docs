@@ -1,0 +1,34 @@
+baseURL = "https://docs.railtech.uz/"
+title = "RailTech B2B — База Знаний"
+defaultContentLanguage = "ru"
+
+[languages]
+  [languages.ru]
+    languageName = "Русский"
+    weight = 1
+    title = "RailTech B2B — База Знаний"
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "RailTech B2B — Knowledge Base"
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[params]
+  [params.navbar]
+    displayLogo = true
+    displayTitle = true
+
+  [params.footer]
+    displayCopyright = true
+    copyright = "ООО «RailTech»"
+
+  [params.editURL]
+    enable = false
