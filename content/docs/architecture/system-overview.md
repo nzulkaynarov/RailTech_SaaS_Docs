@@ -2,7 +2,7 @@
 title: "Обзор системы"
 linkTitle: "Обзор системы"
 weight: 10
-description: "Master System Document -- полное описание архитектуры, бизнес-логики и технических требований платформы RailTech B2B."
+description: "Полное описание архитектуры, бизнес-логики и технических требований платформы RailTech B2B."
 categories: ["Архитектура"]
 tags: ["архитектура", "Django", "React"]
 ---
