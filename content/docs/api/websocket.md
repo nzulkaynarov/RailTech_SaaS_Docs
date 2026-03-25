@@ -23,8 +23,8 @@ JWT-токен передается через **первое сообщение
 
 Примеры подключения и аутентификации:
 
-{{< tabs items="JavaScript,Python" >}}
-  {{< tab >}}
+{{< tabs >}}
+  {{< tab name="JavaScript" >}}
 ```javascript
 const ws = new WebSocket(`wss://api.railtech.uz/ws/chat/${dealId}/`);
 
@@ -46,7 +46,7 @@ ws.onmessage = (event) => {
 };
 ```
   {{< /tab >}}
-  {{< tab >}}
+  {{< tab name="Python" >}}
 ```python
 import asyncio
 import websockets

@@ -17,15 +17,15 @@ tags: ["REST API", "JWT", "WebSocket", "аутентификация"]
 
 Пример авторизации и получения JWT-токена на разных языках:
 
-{{< tabs items="cURL,Python,JavaScript" >}}
-  {{< tab >}}
+{{< tabs >}}
+  {{< tab name="cURL" >}}
 ```bash
 curl -X POST https://api.railtech.uz/api/v1/accounts/login/ \
   -H "Content-Type: application/json" \
   -d '{"email": "user@example.com", "password": "secret"}'
 ```
   {{< /tab >}}
-  {{< tab >}}
+  {{< tab name="Python" >}}
 ```python
 import requests
 resp = requests.post("https://api.railtech.uz/api/v1/accounts/login/", json={
@@ -35,7 +35,7 @@ resp = requests.post("https://api.railtech.uz/api/v1/accounts/login/", json={
 token = resp.json()["access"]
 ```
   {{< /tab >}}
-  {{< tab >}}
+  {{< tab name="JavaScript" >}}
 ```javascript
 const resp = await fetch("https://api.railtech.uz/api/v1/accounts/login/", {
   method: "POST",

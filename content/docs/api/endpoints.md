@@ -100,8 +100,8 @@ tags: ["REST API", "endpoints", "RBAC"]
 
 ### Создание сделки
 
-{{< tabs items="cURL,Python,JavaScript" >}}
-  {{< tab >}}
+{{< tabs >}}
+  {{< tab name="cURL" >}}
 ```bash
 curl -X POST https://api.railtech.uz/api/v1/crm/deals/ \
   -H "Authorization: Bearer $TOKEN" \
@@ -113,7 +113,7 @@ curl -X POST https://api.railtech.uz/api/v1/crm/deals/ \
   }'
 ```
   {{< /tab >}}
-  {{< tab >}}
+  {{< tab name="Python" >}}
 ```python
 import requests
 
@@ -130,7 +130,7 @@ deal = resp.json()
 print(f"Deal ID: {deal['id']}, Stage: {deal['stage']}")
 ```
   {{< /tab >}}
-  {{< tab >}}
+  {{< tab name="JavaScript" >}}
 ```javascript
 const resp = await fetch("https://api.railtech.uz/api/v1/crm/deals/", {
   method: "POST",

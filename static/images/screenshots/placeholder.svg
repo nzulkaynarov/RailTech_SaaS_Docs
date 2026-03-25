@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f3f4f6" rx="8"/>
+  <rect x="20" y="20" width="760" height="410" fill="#e5e7eb" rx="6" stroke="#d1d5db" stroke-width="2" stroke-dasharray="8 4"/>
+  <g transform="translate(400, 180)">
+    <rect x="-30" y="-25" width="60" height="50" fill="#9ca3af" rx="4"/>
+    <circle cx="0" cy="-8" r="8" fill="#d1d5db"/>
+    <polygon points="-20,15 0,-5 20,15" fill="#d1d5db"/>
+  </g>
+  <text x="400" y="260" text-anchor="middle" fill="#6b7280" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Скриншот будет добавлен</text>
+  <text x="400" y="285" text-anchor="middle" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="14">Замените этот файл на актуальный скриншот интерфейса</text>
+</svg>
